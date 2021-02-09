@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <TextView
+        android:id="@+id/text_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:text="This is home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="673dp"
+        android:layout_height="175dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="13dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.031">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="175dp"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/RName1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:textColor="@color/cardview_dark_background"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        tools:text="Restaurant Name" />
+
+                    <TextView
+                        android:id="@+id/Cuis1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="16dp"
+                        android:paddingTop="4dp"
+                        android:paddingEnd="16dp"
+                        android:paddingBottom="8dp"
+                        android:textColor="@color/cardview_dark_background"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        tools:text="Cuisine" />
+
+                    <TextView
+                        android:id="@+id/Addr1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="16dp"
+                        android:paddingTop="4dp"
+                        android:paddingEnd="16dp"
+                        android:paddingBottom="4dp"
+                        android:textColor="@color/cardview_dark_background"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        tools:text="Address" />
+
+                    <TextView
+                        android:id="@+id/RHours1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="16dp"
+                        android:paddingTop="4dp"
+                        android:paddingEnd="16dp"
+                        android:paddingBottom="4dp"
+                        android:textColor="@color/cardview_dark_background"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        tools:text="Hours" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="175dp"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/RName2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:textColor="@color/cardview_dark_background"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        tools:text="Restaurant Name" />
+
+                    <TextView
+                        android:id="@+id/Cuis2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="16dp"
+                        android:paddingTop="4dp"
+                        android:paddingEnd="16dp"
+                        android:paddingBottom="8dp"
+                        android:textColor="@color/cardview_dark_background"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        tools:text="Cuisine" />
+
+                    <TextView
+                        android:id="@+id/Addr2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="16dp"
+                        android:paddingTop="4dp"
+                        android:paddingEnd="16dp"
+                        android:paddingBottom="4dp"
+                        android:textColor="@color/cardview_dark_background"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        tools:text="Address" />
+
+                    <TextView
+                        android:id="@+id/RHours2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="16dp"
+                        android:paddingTop="4dp"
+                        android:paddingEnd="16dp"
+                        android:paddingBottom="4dp"
+                        android:textColor="@color/cardview_dark_background"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        tools:text="Hours" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="175dp"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/RName3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:textColor="@color/cardview_dark_background"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        tools:text="Restaurant Name" />
+
+                    <TextView
+                        android:id="@+id/Cuis3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="16dp"
+                        android:paddingTop="4dp"
+                        android:paddingEnd="16dp"
+                        android:paddingBottom="8dp"
+                        android:textColor="@color/cardview_dark_background"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        tools:text="Cuisine" />
+
+                    <TextView
+                        android:id="@+id/Addr3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="16dp"
+                        android:paddingTop="4dp"
+                        android:paddingEnd="16dp"
+                        android:paddingBottom="4dp"
+                        android:textColor="@color/cardview_dark_background"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        tools:text="Address" />
+
+                    <TextView
+                        android:id="@+id/RHours3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="16dp"
+                        android:paddingTop="4dp"
+                        android:paddingEnd="16dp"
+                        android:paddingBottom="4dp"
+                        android:textColor="@color/cardview_dark_background"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        tools:text="Hours" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="240dp"
+        android:layout_marginBottom="2dp"
+        android:text="Popular Restaurants"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#673AB7"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/horizontalScrollView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/search_btn"
+        tools:text="Popular Restaurants" />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView2"
+        android:layout_width="613dp"
+        android:layout_height="175dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="150dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/FavDishes">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="175dp"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/Rname1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:textColor="@color/cardview_dark_background"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        tools:text="Restaurant Name" />
+
+                    <TextView
+                        android:id="@+id/Rcuisine1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="16dp"
+                        android:paddingTop="4dp"
+                        android:paddingEnd="16dp"
+                        android:paddingBottom="8dp"
+                        android:textColor="@color/cardview_dark_background"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        tools:text="Cuisine" />
+
+                    <TextView
+                        android:id="@+id/Raddr1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="16dp"
+                        android:paddingTop="4dp"
+                        android:paddingEnd="16dp"
+                        android:paddingBottom="4dp"
+                        android:textColor="@color/cardview_dark_background"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        tools:text="Address" />
+
+                    <TextView
+                        android:id="@+id/restaurantHours1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="16dp"
+                        android:paddingTop="4dp"
+                        android:paddingEnd="16dp"
+                        android:paddingBottom="4dp"
+                        android:textColor="@color/cardview_dark_background"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        tools:text="Hours" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="175dp"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/restaurantName2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:textColor="@color/cardview_dark_background"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        tools:text="Restaurant Name" />
+
+                    <TextView
+                        android:id="@+id/restaurantCuisine2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="16dp"
+                        android:paddingTop="4dp"
+                        android:paddingEnd="16dp"
+                        android:paddingBottom="8dp"
+                        android:textColor="@color/cardview_dark_background"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        tools:text="Cuisine" />
+
+                    <TextView
+                        android:id="@+id/restaurantAddress2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="16dp"
+                        android:paddingTop="4dp"
+                        android:paddingEnd="16dp"
+                        android:paddingBottom="4dp"
+                        android:textColor="@color/cardview_dark_background"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        tools:text="Address" />
+
+                    <TextView
+                        android:id="@+id/restaurantHours2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="16dp"
+                        android:paddingTop="4dp"
+                        android:paddingEnd="16dp"
+                        android:paddingBottom="4dp"
+                        android:textColor="@color/cardview_dark_background"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        tools:text="Hours" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="175dp"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/restaurantName3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:textColor="@color/cardview_dark_background"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        tools:text="Restaurant Name" />
+
+                    <TextView
+                        android:id="@+id/restaurantCuisine3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="16dp"
+                        android:paddingTop="4dp"
+                        android:paddingEnd="16dp"
+                        android:paddingBottom="8dp"
+                        android:textColor="@color/cardview_dark_background"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        tools:text="Cuisine" />
+
+                    <TextView
+                        android:id="@+id/restaurantAddress3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="16dp"
+                        android:paddingTop="4dp"
+                        android:paddingEnd="16dp"
+                        android:paddingBottom="4dp"
+                        android:textColor="@color/cardview_dark_background"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        tools:text="Address" />
+
+                    <TextView
+                        android:id="@+id/restaurantHours3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="16dp"
+                        android:paddingTop="4dp"
+                        android:paddingEnd="16dp"
+                        android:paddingBottom="4dp"
+                        android:textColor="@color/cardview_dark_background"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        tools:text="Hours" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/FavDishes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginEnd="234dp"
+        android:layout_marginBottom="1dp"
+        android:text="Popular Dishes"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#673AB7"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/horizontalScrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView"
+        tools:text="Popular Dishes" />
+
+
+    <Button
+        android:id="@+id/search_btn"
+        android:layout_width="213dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Search"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.885"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
